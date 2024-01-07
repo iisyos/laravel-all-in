@@ -11,4 +11,4 @@ services:
   phpfpm:
     build: docker/phpfpm
     volumes:
-      - ./src/:/var/www/html/
+      - ./:/var/www/html/
