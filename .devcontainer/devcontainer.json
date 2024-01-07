@@ -4,5 +4,28 @@
 		"../compose.yaml"
 	],
 	"service": "phpfpm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"neilbrayfield.php-docblocker",
+				"bmewburn.vscode-intelephense-client",
+				"phproberto.vscode-php-getters-setters",
+				"onecentlin.laravel-blade",
+				"onecentlin.laravel5-snippets",
+				"onecentlin.laravel-extension-pack",
+				"devsense.phptools-vscode",
+				"codingyu.laravel-goto-view",
+				"editorconfig.editorconfig",
+				"streetsidesoftware.code-spell-checker",
+				"github.copilot",
+				"mhutchie.git-graph",
+				"github.vscode-pull-request-github"
+			],
+			"settings": {
+				"extensions.verifySignature": false
+			}
+		}
+	},
+	"remoteUser": "www-data",
 	"workspaceFolder": "/var/www/html"
 }

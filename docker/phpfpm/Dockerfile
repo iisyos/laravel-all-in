@@ -19,3 +19,8 @@ ENV PATH $PATH:/composer/vendor/bin
 WORKDIR /var/www/html
 
 RUN composer global require "laravel/installer"
+
+RUN chown -R www-data:www-data /var/www \
+  && chsh -s /bin/bash www-data
+  
+USER www-data
