@@ -1,0 +1,8 @@
+{
+	"name": "phpfpm",
+	"dockerComposeFile": [
+		"../compose.yaml"
+	],
+	"service": "phpfpm",
+	"workspaceFolder": "/var/www/html"
+}
